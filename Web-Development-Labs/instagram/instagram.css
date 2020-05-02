@@ -1,0 +1,179 @@
+.phone {
+	float: left;
+	width: 50%;
+	position: absolute;
+	right: 330px;
+	top: 150px;
+}
+
+.phone img {
+	width: 60%;
+	height: 60%;
+}
+
+.insta img {
+	width: 60%;
+	height: 60%;
+	padding-top: 20px;
+}
+
+.insta{
+	padding-left: 100px;
+}
+
+.registration {
+	border-style: solid;
+	border-width: 1px;
+	border-color: gainsboro;
+	width: 30%;
+	position: absolute;
+	left: 750px;
+	top: 70px;
+}
+
+.registration h3, h4 {
+	color: darkgray;
+	text-align: center;
+	font-family: sans-serif; 
+	font-weight: lighter;
+}
+
+.but img {
+	width: 7%;
+	height: 4%;
+	position: absolute;
+	left: 100px;
+	top: 197px;
+}
+
+.but button {
+	margin-left: 70px;
+	width: 65%;
+	background-color: dodgerblue;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.but h3 {
+	color: white;
+	margin-left: 20px;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	width: 70%;
+	padding: 12px 3px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.account {
+	border-style: solid;
+	border-width: 1px;
+	border-color: gainsboro;
+	width: 30%;
+	position: absolute;
+	left: 750px;
+	top: 750px;
+}
+
+.account p {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.account a {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+.app {
+	width: 30%;
+	position: absolute;
+	left: 750px;
+	top: 845px;
+	text-align: center;
+}
+
+.button button {
+	margin-left: 10px;
+	width: 35%;
+	background-color: black;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+#one{
+	width: 20%;
+	height: 20%;
+	padding-right: 90px;
+	padding-top: 1px;
+}
+
+#two{
+	width: 20%;
+	height: 20%;
+	padding-right: 90px;
+	padding-top: 5px;
+}
+
+.button h2{
+	color: white;
+	margin-left: 35px;
+	position: absolute;
+	top: 73px;
+	font-weight: lighter;
+}
+
+.button h5 {
+	color: white;
+	margin-left: 36px;
+	position: absolute;
+	top: 60px;
+	font-weight: lighter;
+}
+
+.end {
+	background-color: white;
+	position: absolute;
+	top: 1050px;
+	left: 200px;
+}
+
+.end a {
+	color: midnightblue;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	letter-spacing: -1px;
+	word-spacing: 2px;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+.end p {
+	color: darkgray;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	letter-spacing: -1px;
+	word-spacing: 2px;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+

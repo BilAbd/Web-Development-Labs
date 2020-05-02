@@ -1,0 +1,8 @@
+
+<div *ngFor="let i of categories">
+   <p routerLink = '{{i.id}}/products'>{{i.name}}</p> 
+   <!-- Пишем routerLink='наш путь'  " 
+    В нашем случае path это /products/, а {{i.id}} это i.id, тоесть ищем
+    продукты категорий i
+    -->
+</div>

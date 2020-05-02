@@ -1,0 +1,25 @@
+<div *ngFor="let products of products">
+    Product: {{products.name}}
+  
+    <p *ngIf="products.description">
+        Description: {{products.description}}
+    </p>
+
+    <br *ngIf="!products.description">
+
+    Rating: {{products.rating}}
+
+    <br>
+
+    Link:  <a href="{{products.link}}"> Click! </a>
+
+    <br>
+
+    Image: <img src="{{products.image}}" alt="lol">
+
+    <br>
+
+    Button: <button><a href="{{products.button}}">Click</a></button>
+
+    <p>______________________________</p>
+</div>

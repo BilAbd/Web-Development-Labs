@@ -1,0 +1,9 @@
+<div *ngFor="let produc of categories.products"> 
+    <!-- Пишем ... of categories.products, потому что categories - это 1 категория,
+    на которую мы кликнули, а .products - это уже массив продуктов внутри этой самой категорий
+    -->
+    <a routerLink= '{{produc.id}}' >{{produc.name}}</a>
+</div>
+<a (click)="getBack()">Back</a> 
+<!-- getBack() это фукнция в firstcomp.component.ts для возврата в предыдущий location
+     a.k.a пойти назад.  -->
